@@ -1,0 +1,5 @@
+D:\Projects\MSBICourse\UN Statistic DWH\UN Statistic DWH\bin\Debug\UN Statistic DWH.dacpac
+D:\Projects\MSBICourse\UN Statistic DWH\UN Statistic DWH\bin\Debug\UN_Statistic_DWH.dll
+D:\Projects\MSBICourse\UN Statistic DWH\UN Statistic DWH\bin\Debug\UN_Statistic_DWH.pdb
+D:\Projects\MSBICourse\UN Statistic DWH\UN Statistic DWH\obj\Debug\UN_Statistic_DWH.dll
+D:\Projects\MSBICourse\UN Statistic DWH\UN Statistic DWH\obj\Debug\UN_Statistic_DWH.pdb

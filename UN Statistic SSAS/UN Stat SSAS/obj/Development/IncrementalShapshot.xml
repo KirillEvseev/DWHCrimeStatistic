@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MSBI_CrimeStatistic_Kirill_Evseev</Database>
+    <Server>ECSC0010539B\MSSQL2014MDX</Server>
+    <ConnectionString>Data Source=ECSC0010539B\MSSQL2014MDX;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>b5jo+D4vpk7ey1W91MhOQlGmOjc=2/18/2017 2:07:35 AM1/30/2017 3:30:09 PM</TimeStamp>
+        <ID>
+          <String>UN Stat</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>iWzMbpE/zdGmkTuPgmNnss6hMeo=2/18/2017 1:56:53 AM1/30/2017 3:33:10 PM</TimeStamp>
+        <ID>
+          <String>UN Stat</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Vh68xlCUtrkHE2IoV++5fxdmFRM=1/30/2017 4:29:54 PM1/30/2017 3:38:04 PM</TimeStamp>
+        <ID>
+          <String>Dim Geography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>voU58pDfFABt7yQepnIwybFhaj0=3/5/2017 1:20:16 AM1/30/2017 3:38:04 PM</TimeStamp>
+        <ID>
+          <String>Dim Crime Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>dLrAIVIK8S95J+JC6IH+itrra+4=1/30/2017 5:52:23 PM1/30/2017 3:38:04 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>SIad7RAvs/mMyAdrGbUW1P+C4+E=3/5/2017 1:20:16 AM1/30/2017 3:38:03 PMQ1m+qhegh4sCWgoLw3dmu1jY7o8=2/17/2017 11:11:40 PM1/30/2017 3:38:03 PM</TimeStamp>
+        <ID>
+          <String>UN Stat</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>yS8ylafm2/grnVtbtkXOlDu3V3M=2/18/2017 1:57:05 AM1/30/2017 3:24:44 PM</TimeStamp>
+      <ID>
+        <String>MSBI_CrimeStatistic_Kirill_Evseev</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2017-03-04T21:20:20.88Z</LastDeployed>
+</DeploymentSnapshot>

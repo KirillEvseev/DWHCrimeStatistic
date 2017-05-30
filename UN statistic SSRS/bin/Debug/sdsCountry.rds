@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="sdsCountry">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=ECSC0010539B\MSSQL2014MDX;Initial Catalog=MSBI_CrimeStatistic_Kirill_Evseev</ConnectString>
+    <IntegratedSecurity>true</IntegratedSecurity>
+  </ConnectionProperties>
+  <DataSourceID>fe901112-257b-4ca8-b21d-0a16d7007d00</DataSourceID>
+</RptDataSource>

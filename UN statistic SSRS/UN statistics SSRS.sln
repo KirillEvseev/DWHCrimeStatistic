@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "UN statistics SSRS", "UN statistics SSRS.rptproj", "{C4B0A0E3-BF02-40CA-A2E0-BDD571BC8B3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4B0A0E3-BF02-40CA-A2E0-BDD571BC8B3B}.Debug|Default.ActiveCfg = Debug
+		{C4B0A0E3-BF02-40CA-A2E0-BDD571BC8B3B}.Debug|Default.Build.0 = Debug
+		{C4B0A0E3-BF02-40CA-A2E0-BDD571BC8B3B}.Debug|Default.Deploy.0 = Debug
+		{C4B0A0E3-BF02-40CA-A2E0-BDD571BC8B3B}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{C4B0A0E3-BF02-40CA-A2E0-BDD571BC8B3B}.DebugLocal|Default.Build.0 = DebugLocal
+		{C4B0A0E3-BF02-40CA-A2E0-BDD571BC8B3B}.Release|Default.ActiveCfg = Release
+		{C4B0A0E3-BF02-40CA-A2E0-BDD571BC8B3B}.Release|Default.Build.0 = Release
+		{C4B0A0E3-BF02-40CA-A2E0-BDD571BC8B3B}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
